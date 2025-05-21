@@ -1,0 +1,5 @@
+# 流程执行重试配置
+process:
+  retry:
+    max-retry-times: 3
+    retry-interval: 1000
